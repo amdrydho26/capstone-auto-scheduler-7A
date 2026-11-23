@@ -1,0 +1,47 @@
+# Python Virtual Environment (Wajib di-ignore agar tidak memenuhi repo)
+venv/
+.venv/
+env/
+ENV/
+code/backend/venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Database SQLite lokal
+*.db
+*.sqlite
+*.sqlite3
+code/backend/scheduler.db
+
+# Excel Temporary Lock Files
+~$*.xlsx
+~$*.xls
+
+# Environment variables & Secrets
+.env
+.env.local
+.env.*.local
+
+# Exclude Frontend (Skenario 2: Backend Only Repository)
+code/frontend/
+frontend/
+
+# Node / Frontend dependencies
+node_modules/
+dist/
+build/
+.npm
+.vite
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
